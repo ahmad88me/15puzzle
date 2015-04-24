@@ -19,6 +19,7 @@ Rectangle{
        placeholderText: "Enter max depth"
        anchors.right: parent.right
        anchors.top: parent.top
+       visible: false
     }
 
     function replaceAll(find, replace, str) {
